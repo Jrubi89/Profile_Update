@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="assest/css/style.css">
 </head>
 <body>
-        
+         
     <header>
         <div class="name-logo">
             <h1>Jessica Rubio</h1>
@@ -20,44 +20,33 @@
                     <a href="https://github.com/Jrubi89"><button class="button">Github</button></a>|
                     <a href="https://drive.google.com/file/d/1wYglCC65zUGL1_aXdcDU6XQrVrhzQiKG/view?usp=sharing"><button class="button">Resume</button></a>|
     </header>
-        
-        <div id="main-container3">
-            <section id="portfolio-box">
-                <h2 id="portfolio">Portfolio</h2>
 
-                <ul class="boxes-list">
-                    <li class="boxes">
-                        <div>
-                            <img  src="assest/image/Hire.PNG" alt="Project 1">
-                            <a href="https://gitsunitha.github.io/ProjectApp/"><h3 class="project-title">Project 1</h3></a>
-                        </div>
-                    </li>                  
-                    <li class="boxes">
-                        <div>
-                            <img  src="assest/image/Github.PNG" alt="Gif Tastic">
-                            <a href="https://jrubi89.github.io/Gift_Tastic/"><h3 class="project-title">Git Tastic</h3></a>
-                        </div>
-                    </li>
-                    <li class="boxes">
-                        <div>
-                            <img src="assest/image/Timer.PNG" alt="Trivia Game">
-                            <a href="https://jrubi89.github.io/TriviaGame/."><h3 class="project-title">Trivia Game</h3></a>
-                        </div>
-                    </li>  
-                    <li class="boxes">
-                        <div>
-                            <img src="assest/image/Guess.PNG" alt="Word Guess Game">
-                            <a href="https://jrubi89.github.io/Word_Guess_Game/"><h3 class="project-title">Word Guess Game</h3></a>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-
-            
-        </div>
-
-        <div id="bottom-container1">
-            <footer id="footer1">Copyright</footer>
-        </div>
+    <div class="main-container2">
+        <section id="contact-box">
+            <h2 id="contact">Contact</h2>
+                
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Jessica Rubio" required="required">
+                        </li>
+                        <li>
+                            <label for="email" id="email-label">Email</label>
+                            <input type="email" name="email" placeholder="example@icloud.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message" id="message-label">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input id="submit" type="submit">
+                </form>
+        </section>
+    </div>
+    
+    <div id="bottom-container1">
+        <footer id="footer1">Copyright</footer>
+    </div>
 </body>
 </html>
