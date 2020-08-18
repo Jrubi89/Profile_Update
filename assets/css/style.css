@@ -12,17 +12,20 @@
 
 html,
 body {
-    background-color: #fff;
-    color: #555;
+    background-color: rgb(201, 156, 183);
+    color: whitesmoke;
     font-family: 'Raleway', 'Ariel', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    
+
 }
 
 .clearfix {
     zoom: 1;
+    
 }
 
 .clearfix:after {
@@ -31,6 +34,7 @@ body {
     display: block;
     height: 0;
     visibility: hidden;
+    opacity: 0.3;
 }
 
 /*----------------------------------------------*/
@@ -315,13 +319,16 @@ header {
 
 .portfolio-showcase {
     list-style: none;
+   
     width: 100%;
+    
 }
 
 .portfolio-showcase li {
     display: block;
     float: left;
     width: 25%;
+    
 }
 
 .portPhoto {
@@ -330,6 +337,7 @@ header {
     margin: 0;
     overflow: hidden;
     background-color: #000;
+
 }
 
 .portPhoto img {
@@ -368,7 +376,7 @@ header {
 }
 
 .modal-content{
-    background-color: white;
+    background-color: #63c0c0;
     display: inline-block;
     text-align: left;
     position: absolute;
@@ -494,7 +502,7 @@ input[type=checkbox] {
 /*----------------------------------------------*/
 
 footer {
-    background-color: #81ecec;
+    background-color: #63c0c0;
     padding: 50px;
     font-size: 80%;
 }
